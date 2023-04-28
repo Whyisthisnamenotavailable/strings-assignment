@@ -6,13 +6,13 @@ __human_name__ = 'strings'
 player_one = "Ruud Gullit"
 player_two = "Marco Van Basten"
 
-goal_1 = 32
-goal_2 = 54
+goal_one = 32
+goal_two = 54
 
-scorers = player_one + " " + str(goal_1) +", " + player_two + " " + str(goal_2)
+scorers = player_one + " " + str(goal_one) +", " + player_two + " " + str(goal_two)
 print(scorers)
 
-report = f"The goals were scored by: {player_one} in minute {goal_1} \n and by {player_two} in minute {goal_2}"
+report = f"The goals were scored by: {player_one} in minute {goal_one} \n and by {player_two} in minute {goal_two}"
 
 print(report)
 
